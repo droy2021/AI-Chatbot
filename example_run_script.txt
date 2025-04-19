@@ -1,0 +1,4 @@
+OPENAI_API_KEY="Your OpenAI API-Key"
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+chainlit run pdf_qa.py -w
